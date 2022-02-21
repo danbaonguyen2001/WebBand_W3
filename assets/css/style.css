@@ -1,0 +1,72 @@
+/*Reset CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*
+vi tri
+kich thuoc(width,height)
+mau sac
+kieu dang
+*/
+#main{
+
+}
+
+#header{
+    height: 46px;
+    background-color: #000;
+}
+#nav{
+
+}
+#nav > li{
+    display: inline-block;
+} 
+#nav li{
+    
+    position: relative;
+}
+#nav>li>a{
+    color: #fff;
+}
+#nav li a{
+   
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px 0 24px;
+    display: block;
+}
+
+#nav > li:hover >  a,
+#nav .subnav li:hover a {
+    color: #000;
+    background-color:#ccc ;
+}
+#nav .subnav{
+    position: absolute;
+    background-color: #fff;
+}
+#nav .subnav a{
+    color: black;
+}
+
+
+
+#slider{
+    min-height: 500px;
+    background-color: #333;
+}
+
+#content{
+
+}
+
+#footer{
+
+}
